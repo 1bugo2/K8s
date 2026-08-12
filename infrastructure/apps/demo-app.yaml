@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: git@github.com:1bugo2/K8s.git
     targetRevision: HEAD
-    path: overlays/dev  # Points directly to your dev overlay manifests
+    path: apps/overlays/dev  # Points directly to your dev overlay manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: default
